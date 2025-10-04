@@ -1,0 +1,113 @@
+.flex{
+    display: flex;
+    text-align:center ;
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.left-nav img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 5px 5px 5px;
+}
+
+.left-nav h1{
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.mid-nav input{
+    width: 400px;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.right nav h2{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 5px;
+}
+
+.right-nav button{
+    width:70px;
+    padding: 5px 5px 5px 5px;
+}
+
+.ul-list{
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bg-nav{
+    background-color: orange;
+}
+
+.typ-nav{
+    height: 30px;
+    background-color: beige;
+    padding: 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.intro-main p{
+    text-align: center;
+}
+
+.social{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.social a{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:5px 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.cards{
+    margin:30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+
+.card button{
+    align-self: center;
+}
+
+.card{
+    border: 1px solid;
+    height: 400px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.card h3,p{
+    text-align: center;
+}
+
+.card img{
+    padding: 2px;
+}
+
+.cart {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 1px;
+    right: 1px;
+}

@@ -5,37 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scissor Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Scissor Shop</h1>
-    <hr>
-    <p>Scissors for you!!</p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero assumenda ipsam id quaerat, quam sed
-        maxime alias, pariatur, corporis accusamus facere corrupti repellat reprehenderit! Repellat voluptatem corrupti
-        laboriosam consectetur.
-    </p>
-    <hr>
-    <a
-        href="https://www.thescissorshop.com/?srsltid=AfmBOopSSYZn4IZESs_oPSDCDoJJUqiS2V281ycarNOJUppUYVwxMzbK">Instagram</a>
-    <a href="https://youtu.be/ttexR6ZgBzs?si=ONaZYSOVIs71eV_M">Youtube</a>
-    <a href="#div1">Products</a>
-    <a href="div4">Place Order</a>
-    <a href="#div2">About Us</a>
-    <a href="#div3">Help</a>
+    <nav class="flex left-nav justify bg-nav">
+        <div class="flex">
+            <img src="./images/logo.png" alt="Logo">
+            <h1>Scizers</h1>
+        </div>
+        <div class="mid-nav">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="flex right-nav">
+            <h2>Harsh</h2>
+            <button>Logout</button>
+        </div>
+    </nav>
 
-
-    <div id="1">
-        <h2>Our Products</h2>
-        <ul>
+    <div class="typ-nav">
+        <ul class="flex ul-list">
             <li>Household Scissors</li>
             <li>Sewing Scissors</li>
             <li>Medical Scissors</li>
         </ul>
-        <img src="./images/imag1.webp" alt="Image 1" height="200px" width="200px">
-        <img src="./images/imag2.jpg" alt="Image 2" height="200px" width="200px">
-        <img src="" alt="Image 3">
+    </div>
+
+    <hr>
+    <div class="intro-main">
+        <p>Scissors for you!!</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero assumenda ipsam id quaerat, quam sed
+            maxime alias, pariatur, corporis accusamus facere corrupti repellat reprehenderit! Repellat voluptatem
+            corrupti
+            laboriosam consectetur.
+        </p>
+    </div>
+
+    <hr>
+    <div class="flex social">
+        <a
+            href="https://www.thescissorshop.com/?srsltid=AfmBOopSSYZn4IZESs_oPSDCDoJJUqiS2V281ycarNOJUppUYVwxMzbK">Instagram</a>
+        <a href="https://youtu.be/ttexR6ZgBzs?si=ONaZYSOVIs71eV_M">Youtube</a>
+        <a href="#div1">Products</a>
+        <a href="div4">Place Order</a>
+        <a href="#div2">About Us</a>
+        <a href="#div3">Help</a>
+    </div>
+
+
+    <h2>Our Products</h2>
+    <div id="1" class="cards">
+        <div class="card">
+            <img src="./images/imag1.webp" alt="Image 1" height="200px" width="200px">
+            <img class="cart" src="./images/cart.jpg" alt="cart-icon">
+            <h3>Household Scissors</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem magnam architecto ut? Illum eaque quae
+                vero quaerat error modi at deleniti velit sint.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img class="cart" src="./images/cart.jpg" alt="cart-icon">
+            <img src="./images/imag2.jpg" alt="Image 2" height="200px" width="200px"> 
+            <h3>Sewing Scissors</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem magnam architecto ut? Illum eaque quae
+                vero quaerat error modi at deleniti velit sint.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/imag2.jpg" alt="Image 2" height="200px" width="200px">
+            <img class="cart" src="./images/cart.jpg" alt="cart-icon">
+            <h3>Medical Scissors</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem magnam architecto ut? Illum eaque quae
+                vero quaerat error modi at deleniti velit sint.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/imag1.webp" alt="Image 1" height="200px" width="200px">
+            <img class="cart" src="./images/cart.jpg" alt="cart-icon">
+            <h3>Household Scissors</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem magnam architecto ut? Illum eaque quae
+                vero quaerat error modi at deleniti velit sint.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/imag2.jpg" alt="Image 2" height="200px" width="200px">
+            <img class="cart" src="./images/cart.jpg" alt="cart-icon">
+            <h3>Sewing Scissors</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem magnam architecto ut? Illum eaque quae
+                vero quaerat error modi at deleniti velit sint.</p>
+            <button>Add to Cart</button>
+        </div>
     </div>
 
     <div>
@@ -115,8 +175,11 @@
             <br>
             <input type="checkbox" value="I accept the T&C">I accept the terms and conditions.
     </div>
-        <h2>Support us on our Youtube</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ttexR6ZgBzs?si=BjhY7JzvgucPGvCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Support us on our Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ttexR6ZgBzs?si=BjhY7JzvgucPGvCy"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <div>
 
     </div>
